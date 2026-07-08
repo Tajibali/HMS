@@ -4,6 +4,7 @@ import { withAuth } from 'next-auth/middleware';
 export default withAuth(
   function middleware(req) {
     const token = req.nextauth.token;
+    
     const path = req.nextUrl.pathname;
 
     // Role Check For Admin-Only Routes
