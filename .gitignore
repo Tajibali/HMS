@@ -3,7 +3,6 @@
 # dependencies
 /node_modules
 npm run build
-npm run dev
 /.pnp
 .pnp.*
 .yarn/*
